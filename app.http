@@ -1,0 +1,11 @@
+Get http://localhost:3000/movies/
+###
+POST http://localhost:3000/movies/
+Content-Type: application/json
+
+{
+  "directorId": 99,
+  "movieName": "abc",
+  "leadActor": "xyz"
+}
+###
